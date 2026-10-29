@@ -1,0 +1,36 @@
+Model: ResNet-18 [2, 2, 2, 2]
+Image size: 112x112
+Checkpoint epoch: 20
+Test loss: 1.8203
+Accuracy: 0.4994
+Precision-macro: 0.5475
+Recall-macro: 0.4959
+F1-macro: 0.4895
+
+                  precision    recall  f1-score   support
+
+        banh-can     0.3708    0.5062    0.4281       241
+        banh-hoi     0.8026    0.4020    0.5357       607
+    banh-mi-chao     0.5305    0.6920    0.6006       289
+        banh-tet     0.8315    0.4066    0.5461       364
+ banh-trang-tron     0.5809    0.2557    0.3551       309
+          banh-u     0.6075    0.3693    0.4594       176
+        banh-uot     0.5072    0.3125    0.3867       560
+       bap-nuong     0.6383    0.2098    0.3158       143
+          bo-kho     0.4101    0.6746    0.5101       338
+       bo-la-lot     0.5698    0.7838    0.6599       458
+       bot-chien     0.4891    0.4891    0.4891       276
+           ca-ri     0.3669    0.2982    0.3290       171
+    canh-kho-qua     0.7192    0.6448    0.6800       290
+   canh-khoai-mo     0.7619    0.8081    0.7843       198
+        ga-nuong     0.6170    0.3118    0.4143       372
+          goi-ga     0.5625    0.3103    0.4000       290
+          ha-cao     0.3778    0.7021    0.4913       480
+hoanh-thanh-nuoc     0.2928    0.5917    0.3917       240
+         pha-lau     0.4888    0.3722    0.4226       352
+          tau-hu     0.6117    0.6207    0.6161       203
+  thit-kho-trung     0.3599    0.6523    0.4639       325
+
+        accuracy                         0.4994      6682
+       macro avg     0.5475    0.4959    0.4895      6682
+    weighted avg     0.5550    0.4994    0.4933      6682

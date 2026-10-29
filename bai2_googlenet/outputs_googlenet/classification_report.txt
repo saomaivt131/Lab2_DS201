@@ -1,0 +1,33 @@
+Model: GoogLeNet 3 Inception blocks
+Checkpoint epoch: 20
+Test loss: 1.9276
+Accuracy: 0.4133
+Macro-F1: 0.3920
+
+                  precision    recall  f1-score   support
+
+        banh-can     0.3436    0.2324    0.2772       241
+        banh-hoi     0.3607    0.6722    0.4695       607
+    banh-mi-chao     0.4756    0.3702    0.4163       289
+        banh-tet     0.5512    0.4286    0.4822       364
+ banh-trang-tron     0.2800    0.2945    0.2871       309
+          banh-u     0.4483    0.2216    0.2966       176
+        banh-uot     0.3913    0.3536    0.3715       560
+       bap-nuong     0.2817    0.1399    0.1869       143
+          bo-kho     0.5057    0.3905    0.4407       338
+       bo-la-lot     0.4464    0.7904    0.5705       458
+       bot-chien     0.3358    0.3297    0.3327       276
+           ca-ri     0.4107    0.1345    0.2026       171
+    canh-kho-qua     0.6445    0.6690    0.6565       290
+   canh-khoai-mo     0.9568    0.6717    0.7893       198
+        ga-nuong     0.3946    0.2769    0.3254       372
+          goi-ga     0.3717    0.3448    0.3578       290
+          ha-cao     0.3157    0.3229    0.3193       480
+hoanh-thanh-nuoc     0.3408    0.2542    0.2912       240
+         pha-lau     0.4396    0.2585    0.3256       352
+          tau-hu     0.3730    0.5862    0.4559       203
+  thit-kho-trung     0.3773    0.3785    0.3779       325
+
+        accuracy                         0.4133      6682
+       macro avg     0.4307    0.3867    0.3920      6682
+    weighted avg     0.4221    0.4133    0.4018      6682

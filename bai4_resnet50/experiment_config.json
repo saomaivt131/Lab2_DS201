@@ -1,0 +1,11 @@
+{
+  "model": "microsoft/resnet-50",
+  "image_size": 224,
+  "batch_size": 16,
+  "num_workers": 2,
+  "seed": 42,
+  "feature_epochs": 10,
+  "feature_lr": 0.001,
+  "finetune_epochs": 15,
+  "finetune_lr": 0.0001
+}

@@ -1,0 +1,3 @@
+mode,checkpoint_epoch,best_val_accuracy,best_val_macro_f1,test_loss,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro
+feature,8,0.795816733067729,0.7980876994046332,0.8766,0.7291,0.7513,0.7405,0.7399
+finetune,15,0.9073705179282868,0.9025941595520814,0.5217,0.8583,0.8586,0.8634,0.859

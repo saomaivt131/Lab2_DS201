@@ -1,0 +1,38 @@
+Model: pretrained ResNet-50
+Source: microsoft/resnet-50
+Mode: feature
+Image size: 224x224
+Checkpoint epoch: 8
+Test loss: 0.8766
+Accuracy: 0.7291
+Precision-macro: 0.7513
+Recall-macro: 0.7405
+F1-macro: 0.7399
+
+                  precision    recall  f1-score   support
+
+        banh-can     0.7835    0.7510    0.7669       241
+        banh-hoi     0.7842    0.5568    0.6513       607
+    banh-mi-chao     0.8231    0.8374    0.8302       289
+        banh-tet     0.9474    0.6923    0.8000       364
+ banh-trang-tron     0.8471    0.6634    0.7441       309
+          banh-u     0.7772    0.8523    0.8130       176
+        banh-uot     0.5330    0.6625    0.5908       560
+       bap-nuong     0.9779    0.9301    0.9534       143
+          bo-kho     0.6844    0.6095    0.6448       338
+       bo-la-lot     0.7410    0.8559    0.7943       458
+       bot-chien     0.7045    0.6739    0.6889       276
+           ca-ri     0.4851    0.3801    0.4262       171
+    canh-kho-qua     0.8447    0.7690    0.8051       290
+   canh-khoai-mo     0.8919    0.8333    0.8616       198
+        ga-nuong     0.8344    0.7177    0.7717       372
+          goi-ga     0.6581    0.6172    0.6370       290
+          ha-cao     0.8238    0.8083    0.8160       480
+hoanh-thanh-nuoc     0.6426    0.8167    0.7193       240
+         pha-lau     0.5789    0.8125    0.6761       352
+          tau-hu     0.7870    0.8916    0.8360       203
+  thit-kho-trung     0.6274    0.8185    0.7103       325
+
+        accuracy                         0.7291      6682
+       macro avg     0.7513    0.7405    0.7399      6682
+    weighted avg     0.7442    0.7291    0.7296      6682
